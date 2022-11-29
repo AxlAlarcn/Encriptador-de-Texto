@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Encriptador de Texto</title>
+    <link rel="icon" href="Imagenes/proteger.png">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <img class="logo" src="Imagenes/Logo-1.png" alt="Logo de alura con la inicial da letra a">
+        </header>
+
+        <main>
+            <section class="principal">
+                <h1>ENCRIPTADOR DE TEXTOS</h1>
+                <textarea class="texto-sinEncriptar" id="texto-sinEncriptar" cols="70" rows="18"
+                    placeholder="Ingrese el texto aqui"></textarea>
+                <p>⚠Solo letras minúsculas y sin acentos</p>
+                <div class="botones">
+                    <button type="submit" class="btn-encriptar" id="btn-encriptar">
+                        🔒Encriptar
+                    </button>
+                    <button type="submit" class="btn-desencriptar" id="btn-desencriptar">
+                        🔓Desencriptar
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <section class="texto-salida">
+            <textarea class="texto-encriptado" id="texto-encriptado" cols="55" rows="21"
+                placeholder="Ingresa el texto que desees encriptar o desencriptar"></textarea>
+            <button type="submit" class="btn-copiar" id="btn-copiar">
+                Copiar
+            </button>
+        </section>
+
+        <footer>
+            <div class="pie">
+                <p>Oracle Next Education + Alura Latam - Challenge #1 by Axel Alarcón Estrada</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
